@@ -86,12 +86,14 @@ main {
 .row {
     width: 80%;
     margin: auto;
+    display: flex;
 }
 
 /* prima colonna */
 
 .column {
     position: relative;
+    margin: 10px;
     width: calc(100% / 3);
 }
 .column i{
@@ -118,7 +120,7 @@ main {
     background-position: center;
     background-image: url(images/img/1b.webp);
 }
-
+/* label on bottom lef on immage */
 .lab_container {
     display: flex;
     position: relative;
@@ -126,16 +128,61 @@ main {
     bottom: 100px;
     left: 0;
 }
-
-
+/* red sale on product */
 .sale{
     background-color: red;
     color: white;
     padding: 5px;
 }
 
+/* sustainability indicator */
 .sost{
     background-color: #008000;
     color: white;
     padding: 5px;
+}
+/* bottom info on product */
+
+
+/* container to flex prices */
+.price_flex {
+    display: flex;
+}
+
+
+.bottom_info {
+    font-size: 25px;
+}
+.artile_info{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.price {
+    color: red;
+}
+.discount {
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+/* END OF GENERAL RULES ON ALL PRODUCTS */
+
+/* image changing */
+
+/* product two */
+.two{
+    background-image: url(images/img/2.webp);
+}
+.two:hover {
+    background-image: url(images/img/2b.webp);
+}
+
+/* product three */
+
+.three {
+    background-image: url(images/img/3.webp);
+}
+
+.three:hover {
+    background-image: url(images/img/3b.webp);
 }
