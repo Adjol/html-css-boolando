@@ -186,3 +186,64 @@ main {
 .three:hover {
     background-image: url(images/img/3b.webp);
 }
+
+/* SECOND ROW STARTS HERE */
+
+.four {
+    background-image: url(images/img/4.webp);
+}
+
+.four:hover {
+    background-image: url(images/img/4b.webp);
+}
+
+.five {
+    background-image: url(images/img/5.webp);
+}
+.five:hover {
+    background-image: url(images/img/5b.webp);
+}
+
+.six {
+    background-image: url(images/img/6.webp);
+}
+
+.six:hover {
+    background-image: url(images/img/6b.webp);
+}
+
+/* FINE IMMAGINI */
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #1a1a1a;
+}
+/* footer first row rules */
+.up {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #e7e6e4;
+    font-size: 25px;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    color: #e7e6e4;
+}
+.info ul {
+    list-style: none;
+    display: flex;
+}
+
+.info a {
+    color: #e7e6e4;
+    text-decoration: none;
+    list-style: none;
+}
